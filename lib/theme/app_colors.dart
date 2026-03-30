@@ -5,9 +5,12 @@ class AppColors {
 
   // Surface hierarchy — depth through tonal shift, no shadows
   static const Color background = Color(0xFF0E0E0E); // Level 0 — the void
-  static const Color surface = Color(0xFF131313);    // Level 1
-  static const Color card = Color(0xFF201F1F);        // Level 2 — cards
-  static const Color cardHigh = Color(0xFF2A2A2A);   // Level 3 — inputs, active rows
+  static const Color surface = Color(0xFF131313); // Level 1
+  static const Color card = Color(0xFF201F1F); // Level 2 — cards
+  static const Color cardHigh =
+      Color(0xFF2A2A2A); // Level 3 — inputs, active rows
+  static const Color buttonMuted =
+      Color(0xFF1E1E1E); // unpressed button surface
 
   // The single accent — blood red, surgical use only
   static const Color accent = Color(0xFFC0392B);

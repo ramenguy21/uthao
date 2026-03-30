@@ -11,7 +11,8 @@ class AppTextStyles {
   static TextStyle get appTitle => GoogleFonts.spaceGrotesk(
         fontSize: 22,
         fontWeight: FontWeight.w700,
-        letterSpacing: 6,
+        height: 2,
+        letterSpacing: 2,
         color: AppColors.white,
       );
 
